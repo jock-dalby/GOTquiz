@@ -4,10 +4,11 @@ class Quote extends Component {
 
   constructor (props) {
     super(props)
+    console.log('quote', this.props)
   }
 
   render () {
-    return <h1>Welcome to {this.props.name}</h1>
+    return <h1>"{this.props.newQuote}"</h1>
   }
 
 }
